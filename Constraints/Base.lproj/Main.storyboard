@@ -15,15 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-ty-wF0">
-                                <rect key="frame" x="26" y="384" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-ty-wF0">
+                                <rect key="frame" x="20" y="403" width="200" height="100"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tBB-ty-wF0" secondAttribute="height" multiplier="2:1" id="fHb-s5-Sds"/>
+                                    <constraint firstAttribute="height" constant="100" id="kuC-Qy-rXT"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tBB-ty-wF0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="SYx-O1-pnv"/>
+                            <constraint firstItem="tBB-ty-wF0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="h1E-7W-d8x"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
